@@ -1,0 +1,125 @@
+.phone{
+  border-radius: 1rem;
+  text-decoration: none;
+  height: 30px;
+  width: 50%;
+  border: none;
+  background-color: greenyellow;
+}
+#livraison{
+  margin-left: ;
+  border-radius: 25rem;
+}
+#titre{
+  font-family: arial, open sans;
+  color: aliceblue;
+}
+    body {
+      text-align: center;
+      background-color: gainsboro;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .navbar {
+      text-align: left;
+      background-color: white;
+      padding: 10px;
+      position: relative;
+    }
+    .menu-icon {
+      background-color: black;
+      margin-left: 85%;
+      cursor: pointer;
+      width: 10%;
+      height: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .menu-icon div {
+      height: 0.300rem;
+      background-color: white;
+    }
+    /* Menu caché par défaut */
+    .menu-links {
+      display: none;
+      flex-direction: column;
+      background-color: #444;
+      margin-top: 10px;
+    }
+    .menu-links a {
+      padding: 0.701rem;
+      color: white;
+      text-decoration: none;
+    }
+    .menu-links a:hover {
+      background-color: #555;
+    }
+  
+    .gallery {
+      text-align: center;
+      display: grid!
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 15px;
+    }
+    .gallery img, .citations {
+      margin: 5px;
+      width: 80%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.3);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    }
+.citations{
+  margin: 5%;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  width: 90%;
+  height: 100%;
+}
+header{
+  display: column;
+  border-radius: 1rem;
+  width: 100%;
+  position: sticky;
+}
+.qs{
+  color: red;
+  margin-left: 30%;
+  border-radius: 25rem;
+  font-size: 5rem;
+  width: 6rem;
+  background-color: white;
+}label{
+  font-family: poppins;
+  color: midnightblue;
+  margin: 3px;
+  font-size: 1.3rem;
+  font-family: poppins;
+}
+h3, #eti{
+  color: coral;
+  font-size: 2rem;
+}footer{
+  background-color: black;
+}
+.ft{
+  border-radius: 25rem;
+  margin: 5px;
+} 
+h6{
+  color: aliceblue;
+}
+.bas{
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  color: white;
+  font-family: poppins;
+  font-size: 1.4rem;
+}

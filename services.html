@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>services</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+<div class="navbar">
+  <img src="logo.jpg" height="60rem" width="100%">
+  <div class="menu-icon" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="menu-links" id="menu">
+    <a href="index.html">Accueil</a>
+    <a href="produits.html">Produits</a>
+    <a href="#parametres">Nos servives</a>
+    <a>Nous contacter</a>
+  </div>
+</div></header><br><br><br><br>
+ 
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('menu');
+    if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+    }
+  }
+</script>
+
+</body>
+</html>
